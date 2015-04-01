@@ -4,6 +4,7 @@ class Cppzmq < Formula
   homepage "http://zeromq.org/bindings:cpp"
   url "https://github.com/zeromq/cppzmq.git"
   version "0.0.1-brew"
+  depends_on "zeromq"
 
   def install
       system "mkdir -p #{include}"
